@@ -1,0 +1,88 @@
+/*************************PERSONAL CSS**********************/
+::selection {
+  background-color: yellowgreen;
+  color: white;
+}
+body {
+  margin: 4px;
+  padding: 1px;
+  box-sizing: border-box;
+  min-width: 400px;
+  font-family: "Roboto", sans-serif;
+}
+.grp {
+  border: 2px solid #e67e22;
+}
+
+.leads {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  border-radius: 0px;
+  font-weight: 700;
+  color: #eee;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 0.995%;
+}
+#input-el {
+  color: #e67e22;
+}
+#input-btn {
+  border-color: #e67e22;
+  color: #e67e22;
+  font-weight: 600;
+  scale: 1;
+}
+
+#input-btn:hover {
+  background-color: #ff7700;
+  color: #eee;
+  scale: 1.05;
+}
+
+#delete-btn,
+#tab-btn {
+  background-color: #e67e22;
+  border: none;
+  margin-left: 0.5%;
+  scale: 1;
+}
+
+#delete-btn:hover,
+#tab-btn:hover {
+  background-color: #ff7700;
+  color: white;
+  scale: 1.05;
+}
+
+.leasts {
+  margin-top: 1.498%;
+}
+.leasts ul li {
+  border: 1px solid #e67e22;
+  color: #e67e22;
+  cursor: pointer;
+}
+.leasts ul li:hover {
+  background-color: #f5aa69;
+  color: #eee;
+}
+.list-group-ite.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #e67e22;
+  border-color: #f3790e;
+}
+
+.oran {
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+}
+
+.oran:hover {
+  color: #eee;
+}
